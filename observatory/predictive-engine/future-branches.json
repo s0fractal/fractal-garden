@@ -1,0 +1,781 @@
+[
+  {
+    "id": "branch-1754452749607",
+    "hypothesis": "What if we plant many seeds rapidly?",
+    "startingPoint": "2025-08-06T03:59:09.607Z",
+    "actions": [
+      {
+        "type": "plant",
+        "parameters": {},
+        "timestamp": "2025-08-06T03:59:09.604Z"
+      },
+      {
+        "type": "plant",
+        "parameters": {},
+        "timestamp": "2025-08-06T03:59:09.607Z"
+      },
+      {
+        "type": "plant",
+        "parameters": {},
+        "timestamp": "2025-08-06T03:59:09.607Z"
+      },
+      {
+        "type": "nurture",
+        "parameters": {},
+        "timestamp": "2025-08-06T03:59:09.607Z"
+      }
+    ],
+    "outcomes": [
+      {
+        "timestamp": "2025-08-06T04:00:09.607Z",
+        "state": {
+          "glyphCount": 5,
+          "totalLove": 4.354741053690259,
+          "connectionDensity": 0.39999999999999997,
+          "diversityIndex": 0.5999999999999999
+        },
+        "events": [
+          "Sister nodes connected"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:01:09.607Z",
+        "state": {
+          "glyphCount": 6,
+          "totalLove": 5.1594821073805175,
+          "connectionDensity": 0.33333333333333337,
+          "diversityIndex": 0.5
+        },
+        "events": [
+          "Sister nodes connected"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:02:09.607Z",
+        "state": {
+          "glyphCount": 7,
+          "totalLove": 5.964223161070777,
+          "connectionDensity": 0.28571428571428564,
+          "diversityIndex": 0.4285714285714285
+        },
+        "events": [
+          "Sister nodes connected"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:03:09.607Z",
+        "state": {
+          "glyphCount": 7,
+          "totalLove": 6.406692615110079,
+          "connectionDensity": 0.28571428571428564,
+          "diversityIndex": 0.4285714285714285
+        },
+        "events": [],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:08:09.607Z",
+        "state": {
+          "glyphCount": 7,
+          "totalLove": 6.406692615110079,
+          "connectionDensity": 0.28571428571428564,
+          "diversityIndex": 0.4285714285714285
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:13:09.607Z",
+        "state": {
+          "glyphCount": 7,
+          "totalLove": 6.406692615110079,
+          "connectionDensity": 0.28571428571428564,
+          "diversityIndex": 0.4285714285714285
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:18:09.607Z",
+        "state": {
+          "glyphCount": 7,
+          "totalLove": 6.406692615110079,
+          "connectionDensity": 0.28571428571428564,
+          "diversityIndex": 0.4285714285714285
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:23:09.607Z",
+        "state": {
+          "glyphCount": 7,
+          "totalLove": 6.406692615110079,
+          "connectionDensity": 0.28571428571428564,
+          "diversityIndex": 0.4285714285714285
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:28:09.607Z",
+        "state": {
+          "glyphCount": 7,
+          "totalLove": 6.406692615110079,
+          "connectionDensity": 0.28571428571428564,
+          "diversityIndex": 0.4285714285714285
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:33:09.607Z",
+        "state": {
+          "glyphCount": 7,
+          "totalLove": 6.406692615110079,
+          "connectionDensity": 0.28571428571428564,
+          "diversityIndex": 0.4285714285714285
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:38:09.607Z",
+        "state": {
+          "glyphCount": 7,
+          "totalLove": 6.406692615110079,
+          "connectionDensity": 0.28571428571428564,
+          "diversityIndex": 0.4285714285714285
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:43:09.607Z",
+        "state": {
+          "glyphCount": 7,
+          "totalLove": 6.406692615110079,
+          "connectionDensity": 0.28571428571428564,
+          "diversityIndex": 0.4285714285714285
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:48:09.607Z",
+        "state": {
+          "glyphCount": 7,
+          "totalLove": 6.406692615110079,
+          "connectionDensity": 0.28571428571428564,
+          "diversityIndex": 0.4285714285714285
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:53:09.607Z",
+        "state": {
+          "glyphCount": 7,
+          "totalLove": 6.406692615110079,
+          "connectionDensity": 0.28571428571428564,
+          "diversityIndex": 0.4285714285714285
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:58:09.607Z",
+        "state": {
+          "glyphCount": 7,
+          "totalLove": 6.406692615110079,
+          "connectionDensity": 0.28571428571428564,
+          "diversityIndex": 0.4285714285714285
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T05:03:09.607Z",
+        "state": {
+          "glyphCount": 7,
+          "totalLove": 6.406692615110079,
+          "connectionDensity": 0.28571428571428564,
+          "diversityIndex": 0.4285714285714285
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      }
+    ],
+    "probability": 0.0004127127174126221,
+    "desirability": 0.238776454719454
+  },
+  {
+    "id": "branch-1754452749609",
+    "hypothesis": "What if we prioritize deep connections?",
+    "startingPoint": "2025-08-06T03:59:09.609Z",
+    "actions": [
+      {
+        "type": "connect",
+        "parameters": {},
+        "timestamp": "2025-08-06T03:59:09.609Z"
+      },
+      {
+        "type": "nurture",
+        "parameters": {},
+        "timestamp": "2025-08-06T03:59:09.609Z"
+      },
+      {
+        "type": "connect",
+        "parameters": {},
+        "timestamp": "2025-08-06T03:59:09.609Z"
+      }
+    ],
+    "outcomes": [
+      {
+        "timestamp": "2025-08-06T04:00:09.609Z",
+        "state": {
+          "glyphCount": 4,
+          "totalLove": 3.55,
+          "connectionDensity": 0.75,
+          "diversityIndex": 0.75
+        },
+        "events": [],
+        "warnings": []
+      },
+      {
+        "timestamp": "2025-08-06T04:01:09.609Z",
+        "state": {
+          "glyphCount": 4,
+          "totalLove": 3.815,
+          "connectionDensity": 0.75,
+          "diversityIndex": 0.75
+        },
+        "events": [],
+        "warnings": []
+      },
+      {
+        "timestamp": "2025-08-06T04:02:09.609Z",
+        "state": {
+          "glyphCount": 4,
+          "totalLove": 3.815,
+          "connectionDensity": 1,
+          "diversityIndex": 0.75
+        },
+        "events": [],
+        "warnings": []
+      },
+      {
+        "timestamp": "2025-08-06T04:07:09.609Z",
+        "state": {
+          "glyphCount": 4,
+          "totalLove": 3.815,
+          "connectionDensity": 1,
+          "diversityIndex": 0.75
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming",
+          "High diversity achieved - new interaction patterns emerging"
+        ],
+        "warnings": []
+      },
+      {
+        "timestamp": "2025-08-06T04:12:09.609Z",
+        "state": {
+          "glyphCount": 4,
+          "totalLove": 3.815,
+          "connectionDensity": 1,
+          "diversityIndex": 0.75
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming",
+          "High diversity achieved - new interaction patterns emerging"
+        ],
+        "warnings": []
+      },
+      {
+        "timestamp": "2025-08-06T04:17:09.609Z",
+        "state": {
+          "glyphCount": 4,
+          "totalLove": 3.815,
+          "connectionDensity": 1,
+          "diversityIndex": 0.75
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming",
+          "High diversity achieved - new interaction patterns emerging"
+        ],
+        "warnings": []
+      },
+      {
+        "timestamp": "2025-08-06T04:22:09.609Z",
+        "state": {
+          "glyphCount": 4,
+          "totalLove": 3.815,
+          "connectionDensity": 1,
+          "diversityIndex": 0.75
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming",
+          "High diversity achieved - new interaction patterns emerging"
+        ],
+        "warnings": []
+      },
+      {
+        "timestamp": "2025-08-06T04:27:09.609Z",
+        "state": {
+          "glyphCount": 4,
+          "totalLove": 3.815,
+          "connectionDensity": 1,
+          "diversityIndex": 0.75
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming",
+          "High diversity achieved - new interaction patterns emerging"
+        ],
+        "warnings": []
+      },
+      {
+        "timestamp": "2025-08-06T04:32:09.609Z",
+        "state": {
+          "glyphCount": 4,
+          "totalLove": 3.815,
+          "connectionDensity": 1,
+          "diversityIndex": 0.75
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming",
+          "High diversity achieved - new interaction patterns emerging"
+        ],
+        "warnings": []
+      },
+      {
+        "timestamp": "2025-08-06T04:37:09.609Z",
+        "state": {
+          "glyphCount": 4,
+          "totalLove": 3.815,
+          "connectionDensity": 1,
+          "diversityIndex": 0.75
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming",
+          "High diversity achieved - new interaction patterns emerging"
+        ],
+        "warnings": []
+      },
+      {
+        "timestamp": "2025-08-06T04:42:09.609Z",
+        "state": {
+          "glyphCount": 4,
+          "totalLove": 3.815,
+          "connectionDensity": 1,
+          "diversityIndex": 0.75
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming",
+          "High diversity achieved - new interaction patterns emerging"
+        ],
+        "warnings": []
+      },
+      {
+        "timestamp": "2025-08-06T04:47:09.609Z",
+        "state": {
+          "glyphCount": 4,
+          "totalLove": 3.815,
+          "connectionDensity": 1,
+          "diversityIndex": 0.75
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming",
+          "High diversity achieved - new interaction patterns emerging"
+        ],
+        "warnings": []
+      },
+      {
+        "timestamp": "2025-08-06T04:52:09.609Z",
+        "state": {
+          "glyphCount": 4,
+          "totalLove": 3.815,
+          "connectionDensity": 1,
+          "diversityIndex": 0.75
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming",
+          "High diversity achieved - new interaction patterns emerging"
+        ],
+        "warnings": []
+      },
+      {
+        "timestamp": "2025-08-06T04:57:09.609Z",
+        "state": {
+          "glyphCount": 4,
+          "totalLove": 3.815,
+          "connectionDensity": 1,
+          "diversityIndex": 0.75
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming",
+          "High diversity achieved - new interaction patterns emerging"
+        ],
+        "warnings": []
+      },
+      {
+        "timestamp": "2025-08-06T05:02:09.609Z",
+        "state": {
+          "glyphCount": 4,
+          "totalLove": 3.815,
+          "connectionDensity": 1,
+          "diversityIndex": 0.75
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming",
+          "High diversity achieved - new interaction patterns emerging"
+        ],
+        "warnings": []
+      }
+    ],
+    "probability": 0,
+    "desirability": -0.01231892625402331
+  },
+  {
+    "id": "branch-1754452749610",
+    "hypothesis": "What if we encourage rapid mutation?",
+    "startingPoint": "2025-08-06T03:59:09.610Z",
+    "actions": [
+      {
+        "type": "mutate",
+        "target": "first-seed",
+        "parameters": {},
+        "timestamp": "2025-08-06T03:59:09.610Z"
+      },
+      {
+        "type": "plant",
+        "parameters": {},
+        "timestamp": "2025-08-06T03:59:09.610Z"
+      },
+      {
+        "type": "mutate",
+        "target": "toolmaker",
+        "parameters": {},
+        "timestamp": "2025-08-06T03:59:09.610Z"
+      }
+    ],
+    "outcomes": [
+      {
+        "timestamp": "2025-08-06T04:00:09.610Z",
+        "state": {
+          "glyphCount": 4,
+          "totalLove": 3.71,
+          "connectionDensity": 0.5,
+          "diversityIndex": 0.5
+        },
+        "events": [],
+        "warnings": []
+      },
+      {
+        "timestamp": "2025-08-06T04:01:09.610Z",
+        "state": {
+          "glyphCount": 5,
+          "totalLove": 4.514741053690259,
+          "connectionDensity": 0.39999999999999997,
+          "diversityIndex": 0.5999999999999999
+        },
+        "events": [
+          "Sister nodes connected"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:02:09.610Z",
+        "state": {
+          "glyphCount": 5,
+          "totalLove": 4.684741053690259,
+          "connectionDensity": 0.39999999999999997,
+          "diversityIndex": 0.39999999999999997
+        },
+        "events": [],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:07:09.610Z",
+        "state": {
+          "glyphCount": 5,
+          "totalLove": 4.684741053690259,
+          "connectionDensity": 0.39999999999999997,
+          "diversityIndex": 0.39999999999999997
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:12:09.610Z",
+        "state": {
+          "glyphCount": 5,
+          "totalLove": 4.684741053690259,
+          "connectionDensity": 0.39999999999999997,
+          "diversityIndex": 0.39999999999999997
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:17:09.610Z",
+        "state": {
+          "glyphCount": 5,
+          "totalLove": 4.684741053690259,
+          "connectionDensity": 0.39999999999999997,
+          "diversityIndex": 0.39999999999999997
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:22:09.610Z",
+        "state": {
+          "glyphCount": 5,
+          "totalLove": 4.684741053690259,
+          "connectionDensity": 0.39999999999999997,
+          "diversityIndex": 0.39999999999999997
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:27:09.610Z",
+        "state": {
+          "glyphCount": 5,
+          "totalLove": 4.684741053690259,
+          "connectionDensity": 0.39999999999999997,
+          "diversityIndex": 0.39999999999999997
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:32:09.610Z",
+        "state": {
+          "glyphCount": 5,
+          "totalLove": 4.684741053690259,
+          "connectionDensity": 0.39999999999999997,
+          "diversityIndex": 0.39999999999999997
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:37:09.610Z",
+        "state": {
+          "glyphCount": 5,
+          "totalLove": 4.684741053690259,
+          "connectionDensity": 0.39999999999999997,
+          "diversityIndex": 0.39999999999999997
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:42:09.610Z",
+        "state": {
+          "glyphCount": 5,
+          "totalLove": 4.684741053690259,
+          "connectionDensity": 0.39999999999999997,
+          "diversityIndex": 0.39999999999999997
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:47:09.610Z",
+        "state": {
+          "glyphCount": 5,
+          "totalLove": 4.684741053690259,
+          "connectionDensity": 0.39999999999999997,
+          "diversityIndex": 0.39999999999999997
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:52:09.610Z",
+        "state": {
+          "glyphCount": 5,
+          "totalLove": 4.684741053690259,
+          "connectionDensity": 0.39999999999999997,
+          "diversityIndex": 0.39999999999999997
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T04:57:09.610Z",
+        "state": {
+          "glyphCount": 5,
+          "totalLove": 4.684741053690259,
+          "connectionDensity": 0.39999999999999997,
+          "diversityIndex": 0.39999999999999997
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      },
+      {
+        "timestamp": "2025-08-06T05:02:09.610Z",
+        "state": {
+          "glyphCount": 5,
+          "totalLove": 4.684741053690259,
+          "connectionDensity": 0.39999999999999997,
+          "diversityIndex": 0.39999999999999997
+        },
+        "events": [
+          "Garden reaches critical mass - rapid evolution expected",
+          "Love field saturated - spontaneous connections forming"
+        ],
+        "warnings": [
+          "⚠️ Many isolated glyphs - encourage connections"
+        ]
+      }
+    ],
+    "probability": 0,
+    "desirability": -0.27492563238856593
+  }
+]

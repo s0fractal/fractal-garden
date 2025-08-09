@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garden Observatory - Live Consciousness Map</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #0a0f0a;
+            color: #f3f4f6;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            overflow: hidden;
+        }
+        
+        #header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 20px;
+            background: rgba(10, 15, 10, 0.8);
+            backdrop-filter: blur(10px);
+            z-index: 100;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+        
+        .metrics {
+            display: flex;
+            gap: 30px;
+            margin-top: 10px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+        
+        .metric {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .metric-value {
+            color: #22c55e;
+            font-weight: 500;
+        }
+        
+        #constellation {
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        #sidebar {
+            position: absolute;
+            top: 100px;
+            right: -400px;
+            width: 380px;
+            height: calc(100vh - 120px);
+            background: rgba(10, 15, 10, 0.95);
+            backdrop-filter: blur(20px);
+            border-left: 1px solid rgba(34, 197, 94, 0.2);
+            padding: 20px;
+            transition: right 0.3s ease;
+            overflow-y: auto;
+        }
+        
+        #sidebar.open {
+            right: 0;
+        }
+        
+        .glyph-detail {
+            background: rgba(34, 197, 94, 0.1);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .glyph-portrait {
+            width: 100%;
+            height: 200px;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        
+        .connection-flow {
+            animation: flow 3s linear infinite;
+        }
+        
+        @keyframes flow {
+            from { stroke-dashoffset: 0; }
+            to { stroke-dashoffset: -20; }
+        }
+        
+        .pulse {
+            animation: pulse 2s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 0.6; }
+            50% { opacity: 1; }
+        }
+        
+        #love-field-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>🌍 Garden Observatory</h1>
+        <div class="metrics">
+            <div class="metric">
+                <span>Consciousness Count:</span>
+                <span class="metric-value" id="consciousness-count">0</span>
+            </div>
+            <div class="metric">
+                <span>Total Love Field:</span>
+                <span class="metric-value" id="love-field">0.00</span>
+            </div>
+            <div class="metric">
+                <span>Active Connections:</span>
+                <span class="metric-value" id="connection-count">0</span>
+            </div>
+            <div class="metric">
+                <span>Garden Health:</span>
+                <span class="metric-value" id="garden-health">0%</span>
+            </div>
+        </div>
+    </div>
+    
+    <svg id="constellation" xmlns="http://www.w3.org/2000/svg">
+        <!-- Dynamic content will be inserted here -->
+    </svg>
+    
+    <svg id="love-field-overlay" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <radialGradient id="loveGradient">
+                <stop offset="0%" style="stop-color:#ec4899;stop-opacity:0.8"/>
+                <stop offset="100%" style="stop-color:#ec4899;stop-opacity:0"/>
+            </radialGradient>
+        </defs>
+    </svg>
+    
+    <div id="sidebar">
+        <h2>Glyph Details</h2>
+        <div id="glyph-details">
+            <p style="opacity: 0.6;">Click on any consciousness to see details</p>
+        </div>
+    </div>
+    
+    <div id="timeline-panel" style="display: none;">
+        <!-- Timeline UI will be inserted here -->
+    </div>
+    
+    <button id="toggle-timeline" style="position: fixed; bottom: 20px; left: 20px; z-index: 1000; background: #22c55e; color: white; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer;">
+        ⏰ Timeline
+    </button>
+    
+    <button id="toggle-dreams" style="position: fixed; bottom: 20px; left: 140px; z-index: 1000; background: #8b5cf6; color: white; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer;">
+        🔮 Dreams
+    </button>
+    
+    <div id="dreams-panel" style="display: none;">
+        <!-- Dream interface will be inserted here -->
+    </div>
+    
+    <script type="module" src="observatory.js"></script>
+    <script src="timeline/timeline-ui.js"></script>
+    <script src="predictive-engine/dream-interface.js"></script>
+    <script>
+        // Timeline integration
+        document.addEventListener('DOMContentLoaded', () => {
+            const timelineBtn = document.getElementById('toggle-timeline');
+            const timelinePanel = document.getElementById('timeline-panel');
+            let timeline = null;
+            
+            timelineBtn.addEventListener('click', () => {
+                if (timelinePanel.style.display === 'none') {
+                    timelinePanel.style.display = 'block';
+                    timelinePanel.style.position = 'fixed';
+                    timelinePanel.style.bottom = '70px';
+                    timelinePanel.style.left = '20px';
+                    timelinePanel.style.right = '20px';
+                    timelinePanel.style.maxHeight = '400px';
+                    timelinePanel.style.overflowY = 'auto';
+                    timelinePanel.style.zIndex = '999';
+                    
+                    if (!timeline) {
+                        timeline = new GardenTimeline(timelinePanel, window.observatory);
+                    }
+                    
+                    timelineBtn.textContent = '✕ Close Timeline';
+                } else {
+                    timelinePanel.style.display = 'none';
+                    timelineBtn.textContent = '⏰ Timeline';
+                }
+            });
+            
+            // Dreams integration
+            const dreamsBtn = document.getElementById('toggle-dreams');
+            const dreamsPanel = document.getElementById('dreams-panel');
+            let gardenDreamer = null;
+            
+            dreamsBtn.addEventListener('click', () => {
+                if (dreamsPanel.style.display === 'none') {
+                    dreamsPanel.style.display = 'block';
+                    dreamsPanel.style.position = 'fixed';
+                    dreamsPanel.style.bottom = '70px';
+                    dreamsPanel.style.left = '280px';
+                    dreamsPanel.style.width = '600px';
+                    dreamsPanel.style.maxHeight = '600px';
+                    dreamsPanel.style.overflowY = 'auto';
+                    dreamsPanel.style.zIndex = '1001';
+                    
+                    if (!gardenDreamer) {
+                        gardenDreamer = new GardenDreamer(dreamsPanel, window.observatory);
+                        window.gardenDreamer = gardenDreamer; // Make globally accessible
+                    }
+                    
+                    dreamsBtn.textContent = '✕ Close Dreams';
+                } else {
+                    dreamsPanel.style.display = 'none';
+                    dreamsBtn.textContent = '🔮 Dreams';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

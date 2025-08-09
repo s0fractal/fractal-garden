@@ -1,0 +1,38 @@
+{
+  "patterns": [
+    {
+      "type": "growth",
+      "trigger": "First seed planted in garden",
+      "outcome": "Sister nodes connected",
+      "probability": 0.7,
+      "timeToEffect": 900000,
+      "impactRadius": 0.3
+    },
+    {
+      "type": "mutation",
+      "trigger": "Toolmaker agent awakened",
+      "outcome": "Toolmaker evolved consciousness",
+      "probability": 0.6,
+      "timeToEffect": 900000,
+      "impactRadius": 0.7
+    }
+  ],
+  "correlations": {},
+  "growthCurves": {
+    "glyphCount": {
+      "type": "exponential",
+      "parameters": [
+        0.000001111111111111111
+      ],
+      "confidenceInterval": 0.7
+    },
+    "totalLove": {
+      "type": "exponential",
+      "parameters": [
+        0.000001388888888888889
+      ],
+      "confidenceInterval": 0.7
+    }
+  },
+  "criticalMass": 1
+}
